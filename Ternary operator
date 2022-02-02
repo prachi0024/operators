@@ -1,0 +1,13 @@
+package operators;
+
+public class TernaryOpEx {
+
+	public static void main(String[] args) {
+		int a = 89;
+		int b = 65;
+		int minvalue;
+		minvalue = (a<b)? a:b;
+		System.out.println(minvalue);
+	}
+
+}
