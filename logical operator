@@ -1,0 +1,12 @@
+package operators;
+
+public class LogicalOpEx {
+
+	public static void main(String[] args) {
+		int a= 90;
+		int b = 78;
+		System.out.println(a==90 && b==78);
+		System.out.println(a==90 || b==78);
+		System.out.println(!(a==90));
+	}
+}
